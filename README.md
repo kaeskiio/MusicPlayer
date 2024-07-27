@@ -8,4 +8,7 @@ This Python script allows you to download songs from a Spotify playlist or from 
 
 ## Requirements
 - see requirements.txt, might need to --upgrade some packages
-  
+- must install package locally
+  ```bash
+  pip install -e .
+  ```
