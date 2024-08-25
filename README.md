@@ -1,14 +1,22 @@
 # Spotify/YouTube Playlist Downloader
 
-This Python script allows you to download songs from a Spotify playlist or from YouTube.
+This is a Python-based script that downloads audio tracks from Spotify and YouTube playlists using the `yt-dlp` library. It fetches playlist details and automatically downloads the tracks, providing a simple solution for saving music locally.
 
 ## Features
-- Download songs from a specified Spotify/YT playlist.
-- Save the downloaded songs in a specified directory.
+
+- **Spotify Integration**: Fetches playlist details from Spotify and downloads equivalent tracks from YouTube.
+- **YouTube Downloader**: Downloads YouTube videos as audio files using `yt-dlp`.
+- **Customizable Formats**: Supports downloading audio in various formats (mp3, wav, etc.).
+- **Automatic Track Matching**: Attempts to match tracks from Spotify playlists to YouTube videos.
 
 ## Requirements
-- see requirements.txt, might need to --upgrade some packages
-- must install package locally
+
+- See requirements.txt, might need to --upgrade some packages
+- Python 3.8+
+- `yt-dlp`: A powerful downloader for video and audio from YouTube and other platforms.
+- `spotipy`: A lightweight Python library for the Spotify Web API.
+
+- Must install package locally
   ```bash
   pip install -e .
   ```
